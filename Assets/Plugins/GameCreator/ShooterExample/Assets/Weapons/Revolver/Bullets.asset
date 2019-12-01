@@ -37,10 +37,10 @@ MonoBehaviour:
       targetObject: {fileID: 0}
       select: 1
       index: 0
-  infiniteAmmo: 0
-  clipSize: 6
+  infiniteAmmo: 1
+  clipSize: 10
   autoReload: 1
-  reloadDuration: 1.5
+  reloadDuration: 2
   aimingMode: 1
   trajectory:
     material: {fileID: 2100000, guid: f4bf0493713224ab38d566056a9d52c9, type: 2}
@@ -100,7 +100,7 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  pushForce: 100
+  pushForce: 10
   shootTrail:
     material: {fileID: 0}
     textureMode: 0
