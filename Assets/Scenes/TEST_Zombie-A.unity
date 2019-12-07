@@ -3639,14 +3639,16 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.SetIntValue
         - HutongGames.PlayMaker.Actions.ScaleTime
         - HutongGames.PlayMaker.Actions.SetIntValue
+        - HutongGames.PlayMaker.Actions.SetFloatValue
         customNames:
         - 
         - 
         - 
-        actionEnabled: 010101
-        actionIsOpen: 010101
-        actionStartIndex: 000000000300000006000000
-        actionHashCodes: 603dd9056cdd4504603dd905
+        - 
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 00000000030000000600000009000000
+        actionHashCodes: 603dd9056cdd4504603dd9059845b305
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -3668,6 +3670,18 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 1
+        - useVariable: 1
+          name: GameTime
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 180
         fsmIntParams:
         - useVariable: 1
           name: TotalLifes
@@ -3706,12 +3720,12 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 000000
+        byteData: 00000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1000000010000000010000000f0000001100000001000000100000001000000001000000
+        paramDataType: 1000000010000000010000000f00000011000000010000001000000010000000010000000f0000000f00000001000000
         paramName:
         - intVariable
         - intValue
@@ -3722,8 +3736,11 @@ MonoBehaviour:
         - intVariable
         - intValue
         - everyFrame
-        paramDataPos: 000000000100000000000000000000000000000001000000020000000300000002000000
-        paramByteDataSize: 000000000000000001000000000000000000000001000000000000000000000001000000
+        - floatVariable
+        - floatValue
+        - everyFrame
+        paramDataPos: 000000000100000000000000000000000000000001000000020000000300000002000000010000000200000003000000
+        paramByteDataSize: 000000000000000001000000000000000000000001000000000000000000000001000000000000000000000001000000
     - name: END
       description: 
       colorIndex: 0
