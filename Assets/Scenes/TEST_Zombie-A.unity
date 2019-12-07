@@ -9827,6 +9827,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8530134695401725527, guid: 4c1319f4efcf161458e09389857d1bcd,
+        type: 3}
+      propertyPath: useStrafeAnimations
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8643079247354228981, guid: 4c1319f4efcf161458e09389857d1bcd,
         type: 3}
       propertyPath: m_Name
