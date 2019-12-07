@@ -925,7 +925,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 3.5
+          value: 4
         - useVariable: 0
           name: 
           tooltip: 
@@ -943,13 +943,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 2
+          value: 1
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: 1.5
         - useVariable: 1
           name: Y_Random
           tooltip: 
@@ -961,13 +961,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -0.2
+          value: -0.1
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.2
+          value: 0.1
         - useVariable: 1
           name: X_Random
           tooltip: 

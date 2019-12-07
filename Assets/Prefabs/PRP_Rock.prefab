@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 420249817731434487}
   m_Layer: 0
   m_Name: PRP_Rock
-  m_TagString: Weapon
+  m_TagString: WeaponPlayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -239,7 +239,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 10
+          value: 8
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
