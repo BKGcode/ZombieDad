@@ -28,7 +28,7 @@ MonoBehaviour:
       value: 0
     intVariables:
     - useVariable: 1
-      name: BulletsLeft
+      name: 
       tooltip: 
       showInInspector: 0
       networkSync: 0
@@ -51,10 +51,28 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 0
-    boolVariables: []
+    boolVariables:
+    - useVariable: 1
+      name: 
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     stringVariables:
     - useVariable: 1
       name: String_BrainCount
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: 
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: Player_TextFeedback
       tooltip: 
       showInInspector: 0
       networkSync: 0
@@ -85,23 +103,30 @@ MonoBehaviour:
       value: {fileID: 3465405330331869821, guid: 708cf26e3519e8d4d9f6c842234d3a11,
         type: 3}
     - useVariable: 1
-      name: UI_Life_1
+      name: 
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: {fileID: 0}
     - useVariable: 1
-      name: UI_Life_2
+      name: 
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: {fileID: 0}
     - useVariable: 1
-      name: UI_Life_3
+      name: 
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: {fileID: 0}
+    - useVariable: 1
+      name: PlayerCamera
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 6218556700853949515, guid: d35ad8b4c23c6f84ab6ccb4cd75ca0b3,
+        type: 3}
     objectVariables: []
     materialVariables: []
     textureVariables: []
@@ -109,6 +134,9 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - ReCheckLife
+  - PlayerTextFeedback_+10sgs
+  - PlayerTextFeedback_+1brain
+  - PlayerTextFeedback_+1life
