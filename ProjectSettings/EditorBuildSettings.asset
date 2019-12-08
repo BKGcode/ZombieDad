@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TEST_Zombie-B.unity
     guid: 69b1fe4fb8940c840955c99ad741e038
+  - enabled: 1
+    path: Assets/Scenes/TEST_Zombie-C.unity
+    guid: 3e1b3dc543c64a446952d3f96522b906
   m_configObjects: {}
