@@ -410,8 +410,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -30, y: -20}
+  m_AnchoredPosition: {x: 0, y: 1}
+  m_SizeDelta: {x: -60, y: -18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &275594955
 MonoBehaviour:
@@ -435,14 +435,14 @@ MonoBehaviour:
 
     Welcome to a super early stage of this little game!
 
-    What you''ll find is the test scene for the basic systems in game like live counter
+    Here you''ll find some test scene for the basic systems in game like counters
     and so on.
 
-    If you like game development this can be interesting for you and fun to try!
+    If you like game development this can be interesting and fun to try!
 
-    This is a one man army game. Share your feedback: info@breakingcode.es
+    One man army game:)
 
-    Best!'
+    Share your feedback: info@breakingcode.es Best!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -470,10 +470,10 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 14.95
-  m_fontSizeBase: 36
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 10
   m_fontSizeMax: 48
   m_fontStyle: 0
@@ -487,7 +487,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 233
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -511,12 +511,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 275594955}
-    characterCount: 303
+    characterCount: 280
     spriteCount: 0
-    spaceCount: 56
-    wordCount: 59
+    spaceCount: 49
+    wordCount: 52
     linkCount: 0
-    lineCount: 7
+    lineCount: 6
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -803,8 +803,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 318.9, y: 89.6}
-  m_SizeDelta: {x: 600, y: 140}
+  m_AnchoredPosition: {x: 218.7, y: 55.4}
+  m_SizeDelta: {x: 400, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &473369137
 MonoBehaviour:
@@ -1198,7 +1198,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 88.6, y: 245.7}
+  m_AnchoredPosition: {x: 88.6, y: 173.8}
   m_SizeDelta: {x: 140, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &755294463

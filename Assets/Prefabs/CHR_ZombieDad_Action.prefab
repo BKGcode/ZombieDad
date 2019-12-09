@@ -935,12 +935,12 @@ MonoBehaviour:
   jumpKey: 32
   movementSpeed: 6
   airControl: 0.4
-  jumpSpeed: 14
+  jumpSpeed: 10
   jumpDuration: 0.2
-  airFriction: 0.5
+  airFriction: 0.6
   groundFriction: 110
-  gravity: 60
-  slideGravity: 5
+  gravity: 50
+  slideGravity: 1
   slopeLimit: 80
   useLocalMomentum: 0
 --- !u!114 &8530134695401725527
